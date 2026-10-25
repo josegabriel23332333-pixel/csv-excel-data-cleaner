@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.vscode/
+
+# Never commit real client data: cleaned files and summaries are ignored...
+*_limpio.*
+*_resumen.txt
+# ...except the demo files in examples/
+!examples/*
